@@ -1,6 +1,8 @@
 class CalendarCardsController < ApplicationController
   def index
     @cards = current_user.calendar_cards
+    # @countdown = (Date.new(2021,12,25) - Date.today).ceil
+    @countdown = 24
   end
 
   def show; end
@@ -10,9 +12,7 @@ class CalendarCardsController < ApplicationController
   def update
     @card = CalendarCard.find(params[:id])
     @card.opened = true
-    if @card.save
-      redirect_back(fallback_location: user_calendar_cards_path(current_user))
-    end
+    @card.save!
   end
 end
 

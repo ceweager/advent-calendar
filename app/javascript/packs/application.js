@@ -13,5 +13,12 @@ import { fallingSnow } from 'packs/snow';
 Rails.start()
 Turbolinks.start()
 ActiveStorage.start()
-openCards();
-fallingSnow();
+
+document.addEventListener('DOMContentLoaded', () => {
+  openCards();
+  fallingSnow();
+})
+document.addEventListener('turbolinks:load', () => {
+  openCards();
+  fallingSnow();
+})

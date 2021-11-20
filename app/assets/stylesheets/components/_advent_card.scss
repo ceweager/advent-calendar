@@ -6,14 +6,13 @@
   height:190px;
   margin: 2px;
   background-color: darkblue;
-  background-size:contain;
+  background-size:cover;
   background-repeat: no-repeat;
 
   &:hover{
     animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
   }
 }
-
 
 @keyframes shake {
   10%, 90% {
@@ -55,4 +54,5 @@ button{
 
 .open-card{
   cursor: pointer;
+  border: none;
 }
