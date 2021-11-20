@@ -1,24 +1,5 @@
-# README
+# SIMPLE ADVENT CALENDAR
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Simple advent calendar built using ruby on rails, simple form and snow.js. 
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+![image](https://user-images.githubusercontent.com/66081334/142741594-c9970429-0e7b-4579-98ae-9bf846480403.png)
