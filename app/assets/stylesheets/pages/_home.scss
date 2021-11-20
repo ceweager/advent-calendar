@@ -1,0 +1,31 @@
+// Specific CSS for your home-page
+body{
+  background-color: rgb(1, 1, 36);
+  color: gold;
+}
+
+.container{
+  max-width:1000px;
+  text-align:center;
+}
+
+h1{
+  font-family: 'Rochester', 'cursive';
+  font-size: 80px;
+  margin-top: 30px;
+}
+
+h2{
+  margin-bottom: 30px;
+}
+
+.land{
+  z-index: 5;
+  height: 100vh;
+  width: 100vw;
+  overflow: auto;
+}
+
+#sky{
+  position:absolute;
+}

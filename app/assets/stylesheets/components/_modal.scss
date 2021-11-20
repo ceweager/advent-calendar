@@ -1,0 +1,88 @@
+.modal-background{
+  position:absolute;
+  top: 0;
+  left: 0;
+  display:none;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.modal-active{
+  display:flex;
+  background-color: rgba(0,0,0,0.3);
+  z-index: 5;
+}
+.modal-card-body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  height: 300px;
+  background-color: rgb(253, 251, 243);
+}
+.modal-inner-body{
+  display:flex;
+  position:relative;
+  justify-content:center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  height: 70%;
+  width: 80%;
+  padding: 30px;
+  border: 2px solid $gold;
+  box-sizing: border-box;
+  color: $dark-gold;
+  font-weight: 600;
+  h5{
+    margin-bottom: 20px;
+  }
+
+  h6{
+    font-style:italic;
+  }
+
+  button{
+    position: absolute;
+    bottom: -16px;
+    background-color: rgb(253, 251, 243);
+    border: 2px solid $gold;
+    padding: 5px 20px;
+    border-radius: 20px;
+    color: $dark-gold;
+  }
+
+}
+.fa-holly-berry{
+  color: $dark-gold;
+  font-size:28px;
+}
+.rotate-1{
+  position:absolute;
+  top:-10px;
+  left: -10px;
+  transform: rotate(140deg);
+}
+
+.rotate-2{
+  position:absolute;
+  top:-10px;
+  right: -10px;
+  transform: rotate(230deg);
+}
+
+.rotate-3{
+  position:absolute;
+  bottom:-10px;
+  right: -10px;
+  transform: rotate(320deg);
+}
+
+.rotate-4{
+  position:absolute;
+  bottom:-10px;
+  left: -10px;
+  transform: rotate(50deg);
+}
